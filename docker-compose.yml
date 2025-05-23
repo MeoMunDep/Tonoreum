@@ -1,1 +1,14 @@
+version: '3.8'
 
+services:
+  bot:
+    build:
+      context: .
+    container_name: tonoreum
+    restart: unless-stopped
+    volumes:
+      - .:/app
+    environment:
+      - NODE_ENV=production
+    stdin_open: true
+    tty: true
