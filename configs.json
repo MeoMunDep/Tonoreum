@@ -8,5 +8,6 @@
   "doTasks": true,
   "referralCodes": "",
   "howManyTimeToUpgradeLevel": 1,
-  "watchAds": true
+  "watchAds": true,
+  "changeWallet": false
 }
