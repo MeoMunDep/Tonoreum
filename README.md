@@ -20,7 +20,7 @@ Welcome to the bot setup guide! Follow the steps below to install and configure 
    - [`wallets.txt`](#4-walletstxt)
 4. [Running the Bot](#running-the-bot)
 5. [Updating the Bot](#updating-the-bot)
-6. [Contact & Support](#contact-&-support)
+6. [Contact & Support](#contact-and-support)
 
 ---
 
@@ -199,7 +199,7 @@ docker run -d --name tonoreum tonoreum
 
 ---
 
-## Contact & Support
+## Contact and Support
 
 - **Support me via** [Referral Link](https://t.me/Tonoreum_Bot/TorFreeMiner?startapp=f15b6b56-2d81-464d-a01b-9131532d8bd6)
 - **Support me via Donate** [Here](https://t.me/KeoAirDropFreeNe/312/27801)
