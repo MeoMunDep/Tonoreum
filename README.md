@@ -136,9 +136,9 @@ socks5://user:pass@host:port
 - [Get it from here](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
 
 ```txt
-abc...xyz
-abc...xyz
-abc...xyz
+ton address
+ton address
+ton address
 ```
 
 ---
