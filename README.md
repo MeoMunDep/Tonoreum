@@ -24,7 +24,7 @@ Welcome to the bot setup guide! Follow the steps below to install and configure 
 
 ---
 
-## 📌 System Requirements
+## System Requirements
 
 Before running the bot, make sure you have installed:
 
@@ -38,9 +38,9 @@ Before running the bot, make sure you have installed:
 
 ---
 
-## 📌 Installing the Bot
+## Installing the Bot
 
-### 🔹 Install via Git
+### Install via Git
 
 1. **Download the bot**:
    ```bash
@@ -53,12 +53,12 @@ Before running the bot, make sure you have installed:
    ```
 3. **Prepare configuration files** ([See details](#bot-configuration))
 
-### 🔹 Manual Installation (Without Git)
+### Manual Installation (Without Git)
 
 1. **Download and extract the bot** into a folder on your computer.
 2. **Install required libraries** (same as Step 2 above).
 
-### 🔹 Install via Docker
+### Install via Docker
 
 1. **Install Docker** if you haven’t already: [Docker Installation Guide](https://t.me/KeoAirDropFreeNe/257/60831).
 2. **Build and run the bot using Docker**:
@@ -70,7 +70,7 @@ Before running the bot, make sure you have installed:
 
 ---
 
-## 📌 Bot Configuration
+## Bot Configuration
 
 ### 1. `configs.json` - 📜 Main Configuration
 
@@ -104,7 +104,7 @@ Explanation of each parameter:
 | `playGames`                   | `boolean`          | `true`            | Enable/disable automatic game playing.                                            |
 | `referralCodes`               | `string`           | `""`              | Referral code (if available, the bot will use it when required).                  |
 
-### 2. `datas.txt` - 🗂️ User Data
+### 2. `datas.txt` - User Data
 
 - [Get it from here](https://t.me/KeoAirDropFreeNee/1586)
 
@@ -114,7 +114,7 @@ query_id.../user...
 query_id.../user...
 ```
 
-### 3. `proxies.txt` - 🌐 Proxy (Optional)
+### 3. `proxies.txt` - Proxy (Optional)
 
 - [Get it from here](https://www.webshare.io/?referral_code=4l5kb3glsce7)
 
@@ -129,7 +129,7 @@ socks4://user:pass@host:port
 socks5://user:pass@host:port
 ```
 
-### 4. `wallets.txt` - 💼 Wallet List
+### 4. `wallets.txt` - Wallet List
 
 - [Get it from here](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
 
@@ -141,7 +141,7 @@ abc...xyz
 
 ---
 
-## 📌 Running the Bot
+## Running the Bot
 
 ### **Run on PC:**
 
@@ -176,9 +176,9 @@ docker start tonoreum
 
 ---
 
-## 📌 Updating the Bot
+## Updating the Bot
 
-### 🔹 If installed via Git
+### If installed via Git
 
 ```bash
 cd tonoreum
@@ -186,7 +186,7 @@ git pull origin main
 npm install
 ```
 
-### 🔹 If running via Docker
+### If running via Docker
 
 ```bash
 docker stop tonoreum
@@ -197,7 +197,7 @@ docker run -d --name tonoreum tonoreum
 
 ---
 
-## 📞 Contact & Support
+## Contact & Support
 
 - **Support me via** [Referral Link](https://t.me/Tonoreum_Bot/TorFreeMiner?startapp=f15b6b56-2d81-464d-a01b-9131532d8bd6)
 - **Support me via Donate** [Here](https://t.me/KeoAirDropFreeNe/312/27801)
