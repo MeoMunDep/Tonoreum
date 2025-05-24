@@ -121,10 +121,12 @@ query_id.../user...
 - [Get it from here](https://www.webshare.io/?referral_code=4l5kb3glsce7)
 
 ```txt
+host:port
 http://host:port
 https://host:port
 socks4://host:port
 socks5://host:port
+user:pass@host:port
 http://user:pass@host:port
 https://user:pass@host:port
 socks4://user:pass@host:port
