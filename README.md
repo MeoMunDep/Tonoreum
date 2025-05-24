@@ -20,7 +20,7 @@ Welcome to the bot setup guide! Follow the steps below to install and configure 
    - [`wallets.txt`](#4-walletstxt)
 4. [Running the Bot](#running-the-bot)
 5. [Updating the Bot](#updating-the-bot)
-6. [Contact & Support](#contact-support)
+6. [Contact & Support](#contact-&-support)
 
 ---
 
@@ -95,14 +95,16 @@ Explanation of each parameter:
 | **Parameter Name**            | **Data Type**      | **Default Value** | **Description**                                                                   |
 | ----------------------------- | ------------------ | ----------------- | --------------------------------------------------------------------------------- |
 | `rotateProxy`                 | `boolean`          | `false`           | Enable/disable automatic proxy rotation between accounts.                         |
-| `skipInvalidProxy`            | `boolean`          | `false`           | If `true`, the bot will skip that account due to invalid proxy.                   |
+| `skipInvalidProxy`            | `boolean`          | `true`            | If `true`, the bot will skip that account due to invalid proxy.                   |
 | `proxyRotationInterval`       | `number`           | `2`               | Time interval (in minutes) between proxy rotations when `rotateProxy` is enabled. |
-| `delayEachAccount`            | `[number, number]` | `[5, 8]`          | Random delay (in seconds) between accounts when performing tasks.                 |
+| `delayEachAccount`            | `[number, number]` | `[1, 1]`          | Random delay (in seconds) between accounts when performing tasks.                 |
 | `timeToRestartAllAccounts`    | `number`           | `300`             | Time (in seconds) before the bot restarts all accounts.                           |
-| `howManyAccountsRunInOneTime` | `number`           | `100`             | Number of accounts running simultaneously.                                        |
+| `howManyAccountsRunInOneTime` | `number`           | `10`              | Number of accounts running simultaneously.                                        |
 | `doTasks`                     | `boolean`          | `true`            | Enable/disable task execution (`false` means the bot won’t perform tasks).        |
-| `playGames`                   | `boolean`          | `true`            | Enable/disable automatic game playing.                                            |
 | `referralCodes`               | `string`           | `""`              | Referral code (if available, the bot will use it when required).                  |
+| `howManyTimeToUpgradeLevel`   | `number`           | `1`               | Number of times to attempt level upgrade.                                         |
+| `watchAds`                    | `boolean`          | `true`            | Enable/disable watching ads to earn rewards.                                      |
+| `changeWallet`                | `boolean`          | `false`           | Enable/disable changing wallets automatically.                                    |
 
 ### 2. `datas.txt` - User Data
 
